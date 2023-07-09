@@ -1,0 +1,51 @@
+#hero {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: url(../images/glass-texture.png) rgba(144,144,144,0.22) top/cover;
+  background-blend-mode: darken;
+  height: 75vh;
+  height: 75svh;
+  min-height: 500px;
+  .bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 80vh;
+    height: 80svh;
+    object-fit: cover;
+    z-index: -2;
+    min-height: 500px;
+    
+  }
+  .nameLogo {
+    margin-top: 170px;
+    width: 60vw;
+    filter: brightness(0.9);
+    @media (max-width: 780px) {
+      width: 70vw;
+      margin-top: 100px;
+    }
+    @media (max-width: 480px) {
+      margin-top: 130px;
+      width: 85vw;
+    }
+  }
+  .intro {
+
+    font-weight: bold;
+    margin: auto;
+    margin-top: 50px;
+    width: 60vw;
+    font-size: 1.8vw;
+    font-family: quadrata;
+    @media (max-width: 780px) {
+      font-size: 3vw;
+    }
+    @media (max-width: 480px) {
+      font-size: 20px;
+      width: 80vw;
+    }
+  }
+}

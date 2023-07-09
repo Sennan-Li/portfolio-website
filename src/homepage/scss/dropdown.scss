@@ -1,0 +1,105 @@
+.dropdown{
+    z-index: 10000;
+    color: #e9e6d4;
+    position: relative;
+    position: fixed;
+    padding: 20px;
+    top: 50px;
+    background: url(../images/dropdown.png) no-repeat top/100% 100%;
+    .dropdownHookLeft{
+      position: absolute;
+      top: -8.7px;
+      left: 50px;
+    }
+    .dropdownHookRight{
+      position: absolute;
+      top: -8.3px;
+      right: 50px;
+    }
+    h4 {
+      font-size: 0.9rem;
+      font-weight: 300px;
+      margin: 20px 0;
+    }
+  }
+  .projectDropdown {
+    right: 55px;
+    width: 300px;
+    .projectDropdownIcons {
+      display: grid;
+      grid-template-columns: 61.25px 61.25px 61.25px 61.25px;
+      gap: 5px;
+      a {
+        color: #e9e6d4;
+        div {
+          text-align: center;
+          padding: 10px 5px;
+          border-radius: 10px;
+          img {
+            display: block;
+            margin: auto;
+            width: 40px;
+          }
+          .projectDropdownIcon {
+            font-size: 2.8rem;
+          }
+          small {
+            display: block;
+            margin-top: 5px;
+            white-space: nowrap;
+            font-size: 0.7rem;
+          }
+          &:hover {
+            background: rgb(100, 100, 100, 0.3);
+          }
+        }
+      }
+
+    }
+    .web {
+      grid-template-columns: 81.66px 81.66px 81.66px;
+        .webImg {
+          width: 70px;
+          border: solid 2px #000;
+          border-radius: 5px;
+        }
+    }
+  }
+  
+  .contactDropdown {
+    right: 15px;
+    width: 270px;
+    h4 {
+      margin: 10px 0;
+    }
+    .contactDropdownIcons {
+      a {
+        color: #e9e6d4;
+        div {
+          padding: 10px 5px;
+          border-radius: 10px;
+          display: grid;
+          grid-template-columns: 20px auto;
+          gap: 10px;
+          img {
+            display: block;
+            margin: auto;
+            width: 40px;
+            height: 40px;
+          }
+          .contactDropdownIcon {
+            font-size: 1.5rem;
+          }
+          small {
+            display: block;
+            margin-top: 5px;
+            white-space: nowrap;
+            font-size: 0.7rem;
+          }
+          &:hover {
+            background: rgb(100, 100, 100, 0.3);
+          }
+        }
+      }
+    }
+  }

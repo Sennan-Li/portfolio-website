@@ -1,13 +1,96 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html, body{
+  font-family: hamburger, "Arima Madurai", "SF Pro", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  overflow-x: hidden;
+  width: 100vw;
+  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+h1 {
+  font-family: belwe;
+}
+h2 {
+  font-family: quadrata;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  }
+a:active {
+  color: #000;
+}
+button {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+img {
+  vertical-align: bottom;
+}
+ul {
+  list-style: none;
+}
+.hide {
+  display: none;
+}
+.unhide {
+  display: block;
+}
+.noScroll{
+  overflow: hidden;
+}
+
+
+@font-face {
+  font-family: longcang;
+  src: url(./fonts/LongCang.ttf);
+}
+@font-face {
+  font-family: hamburger;
+  src: url(./fonts/hamburger.ttf);
+}
+@font-face {
+  font-family: senty;
+  src: url(./fonts/senty.ttf);
+}
+@font-face {
+  font-family: belwe;
+  src: url(./fonts/Belwe.ttf);
+}
+@font-face {
+  font-family: quadrata;
+  src: url(./fonts/quadrata.woff);
+}
+@font-face {
+  font-family: openSansRegular;
+  src: url(./fonts/open-sans-400.woff);
+}
+@font-face {
+  font-family: openSansSemi-bold;
+  src: url(./fonts/open-sans-600.woff);
+}
+@font-face {
+  font-family: openSansBold;
+  src: url(./fonts/open-sans.bold.woff);
+}
+@font-face {
+  font-family: openSansItalic;
+  src: url(./fonts/open-sans.italic.woff);
 }

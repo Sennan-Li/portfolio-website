@@ -1,0 +1,128 @@
+.news{
+    width: 100vw;
+    height: auto;
+    min-height: calc(100svh - 91px);
+    display: flex;
+    padding: 0 5vw;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: url(../images/parchment.jpg) repeat-y top/cover;
+    h3 {
+        margin-bottom: 15px;
+        color: rgb(232, 77, 77);
+    }
+    a {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    @media (max-width: 999px) {
+        padding-bottom: 0px;
+        display: block;
+    }
+    .main {
+        width: 70%;
+        padding-right: 20px;
+        @media (max-width: 999px) {
+            width: 100%;
+            padding: 0;
+        }
+        .article {
+            .heading {
+                h1 {
+                    color: #614326;
+                    font-size: 2rem;
+                }
+                div {
+                    display: flex;
+                    margin: 10px 0;
+                    p {
+                        font-size: 0.8rem;
+                    }
+                    .name {
+                        color: #233A6E;
+                        margin-right: 10px;
+                    }
+                    .date {
+                        color: #614326;
+                    }
+                }
+                small {
+                    font-size: 1.3rem;
+                    font-weight: bold;
+                    
+                    
+                }
+                margin-bottom: 2rem;
+            }
+            padding-top: 20px;
+            h2 {
+                color: #233A6E;
+            }
+            p {
+                padding: 12px 0;
+            }
+            figure {
+                text-align: center;
+                font-weight: bold;
+                font-size: 0.8rem;
+                width: 100%;
+                margin-bottom: 1rem;
+                img, video {
+                    border-radius: 10px;
+                    border: 1px solid #614326;
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            }
+            .screen {
+                width: 300px;
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+        }
+        
+    }
+    .content {
+        width: 30%;
+        height: auto; 
+        padding-top: 70px;
+        
+        @media (max-width: 999px) {
+            width: 100%;
+        }
+        h1 {
+            font-size: 1.2rem;
+            color: #614326;
+            padding-bottom: 10px;
+        }
+        hr {
+            border: 0.1px solid;
+            &:last-child {
+                display: none;
+            }
+        }
+        .chapters {
+            display: flex;
+            padding: 10px 0;
+
+            img {
+                filter: drop-shadow(3px 3px 6px  gray);
+                width: 120px;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+            div {
+                padding-left: 10px;
+                .intro {
+                    font-weight: 600;   
+                }
+                .date {
+                    color: #614326;
+                    font-size: 0.8rem;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
