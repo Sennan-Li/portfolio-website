@@ -28,6 +28,9 @@ export default function Projects() {
         <img className='headingBegin' src={headingBegin} alt=""/>
         <img className='headingEnd' src={headingEnd} alt=""/>
       </div>
+      <div className='intro'>
+       <p >Hi, I am Sennan Li, a student studying MSc Computer Science at University of York. Plain and Simple, I love Web Development, I am passionate about building clean and useful websites.</p>
+      </div>
 
     <div className='projectCardSet'>
 
