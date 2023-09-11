@@ -4,9 +4,7 @@ import engraveLeftHead from "../images/engrave_left_head.png";
 import engraveLeftTail from "../images/engrave_left_tail.png";
 import engraveRightHead from "../images/engrave_right_head.png";
 import engraveRightTail from "../images/engrave_right_tail.png";
-import iconFrame from "../images/icon_frame.png";
-import uk from "../images/uk.png"
-import china from "../images/china.png"
+import logo from "../images/logo(white).gif"
 
 export default function Footer(props) {
   return (
@@ -18,12 +16,10 @@ export default function Footer(props) {
       </div>
       
       <div className='footerContent'>
-        <p className='languageSwitch'>Switch Language</p>
-        <p className='footerText'>2022 Sennan Li 李森楠</p>
-        <img src={iconFrame} alt="" className='flagLeft flagFrame'/>
-        <img src={iconFrame} alt="" className='flagRight flagFrame'/>
-        <a href={props.en}><img src={uk} alt="" className='flagLeft countryFlag'/></a>
-        <a href={props.cn}><img src={china} alt="" className='flagRight countryFlag'/></a>
+      <img src={logo} alt="" className='logoMove'/>
+        <p className='footerText'>2023 Sennan Li 李森楠</p>
+      
+       
       </div>
    
       <div className='footerEngrave footerEngraveRight'>

@@ -3,9 +3,9 @@ import dropdownHook from "../images/dropdown_hook.png"
 import homecare from "../images/homecare.png";
 import todo from "../images/todo.png";
 import notes from "../images/notes.png";
-import hometown from "../images/hometown.png"
-import notebook from "../images/notebook.png"
-import eCommerce from "../images/e-commerce.png"
+import hometown from "../images/hometown.jpg"
+import notebook from "../images/notebook.jpg"
+import eCommerce from "../images/e-commerce.jpg"
 import { MdWeb } from 'react-icons/md';
 import '../scss/dropdown.scss'
 
