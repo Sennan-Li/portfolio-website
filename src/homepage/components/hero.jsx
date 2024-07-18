@@ -12,7 +12,7 @@ export default function Hero() {
       <section id='hero'>
       {/* <img src={bg} alt="" className='bg'/> */}
         {/* <img src={myName} alt="" className='nameLogo' /> */}
-        <video autoPlay muted playsInline loop className='bgV'>
+        <video autoPlay muted playsInline className='bgV'>
         <source src={jumbotron} type='video/mp4'/>
       </video>
     </section>
