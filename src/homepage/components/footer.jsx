@@ -17,7 +17,7 @@ export default function Footer(props) {
       
       <div className='footerContent'>
       <img src={logo} alt="" className='logoMove'/>
-        <p className='footerText'>2023 Sennan Li 李森楠</p>
+        <p className='footerText'>2024 Sennan Li 李森楠</p>
       
        
       </div>
