@@ -29,7 +29,13 @@ export default function Projects() {
         <img className='headingEnd' src={headingEnd} alt=""/>
       </div>
       <div className='intro'>
-       <p >Hi, I am Sennan Li, graduated from University of York in MSc Computer Science. <br />Currently working as Service Digitalization Specialist at BYD Europe. <br />Plain and Simple, I love Web Development, I am passionate about building clean and useful websites.</p>
+       <p>Welcome!<br />
+       <br />
+       My name is Sennan Li. I’m a Service Digitalization Specialist at BYD Europe, where I manage technical information and dealer management systems, and provide user support. Previously, I was a Microsoft Support Engineer for Azure PostgreSQL customers. <br />
+       <br />
+       I hold dual Master’s degrees in Automotive Engineering and Computer Science. Through the Leadership Development Programme, I gained global skills and strategic insights. I enjoy working with diverse teams to solve real-world problems with new technologies. <br />
+       <br />
+       Let’s innovate and create impactful solutions together!</p>
       </div>
 
     <div className='projectCardSet'>

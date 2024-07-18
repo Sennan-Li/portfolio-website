@@ -1,6 +1,5 @@
 import React from 'react'
 import '../scss/homepage.scss';
-import { Helmet } from 'react-helmet';
 import Hero from '../components/hero';
 import Projects from '../components/projects';
 import Journey from '../components/journey';

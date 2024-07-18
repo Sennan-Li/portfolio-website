@@ -11,7 +11,7 @@ export default function ContactDropdown() {
     <img src={dropdownHook} alt="" className="dropdownHookRight" />
     <h4>Contacts</h4>
     <div className="contactDropdownIcons">
-    <a target='_blank' rel="noreferrer" href="">
+    <a target='_blank' rel="noreferrer" href="mailto: sennanli@alumni.york.ac.uk">
         <div>
           <MdEmail className='contactDropdownIcon'/>
           <small>sennanli@alumni.york.ac.uk</small>

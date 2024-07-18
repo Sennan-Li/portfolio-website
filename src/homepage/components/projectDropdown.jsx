@@ -6,7 +6,6 @@ import notes from "../images/notes.png";
 import hometown from "../images/hometown.jpg"
 import notebook from "../images/notebook.jpg"
 import eCommerce from "../images/e-commerce.jpg"
-import { MdWeb } from 'react-icons/md';
 import '../scss/dropdown.scss'
 
 

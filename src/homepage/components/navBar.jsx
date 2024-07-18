@@ -1,5 +1,5 @@
 import '../scss/nav.scss'
-import React, {useState} from 'react';
+import React from 'react';
 import logo from "../images/sennanli-logo.png";
 import { CgMenuGridO } from 'react-icons/cg';
 import { RiContactsLine } from 'react-icons/ri';
@@ -10,11 +10,12 @@ export default function NavBar({projectDropdown, setProjectDropdown, contactDrop
 
   function handleProjectDropdownOpen() {
     setContactDropdown(false)
-    {projectDropdown===false?setProjectDropdown(true):setProjectDropdown(false)}
+    projectDropdown===false?setProjectDropdown(true):setProjectDropdown(false)
   }
+
   function handleContactDropdownOpen() {
     setProjectDropdown(false)
-    {contactDropdown===false?setContactDropdown(true):setContactDropdown(false)}
+    contactDropdown===false?setContactDropdown(true):setContactDropdown(false)
   }
 
   return (

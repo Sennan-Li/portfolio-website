@@ -1,8 +1,5 @@
 import React from 'react'
 
-//images
-import myName from "../images/sennanli-name(black).png";
-import bg from "../images/scholomance_parallax_middle.png";
 import jumbotron from '../images/logo-c.mp4'
 
 

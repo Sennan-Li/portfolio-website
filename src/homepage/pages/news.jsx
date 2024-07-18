@@ -1,11 +1,10 @@
 import React from 'react'
 import '../scss/news.scss'
-import NavBar from '../components/navBar'
+
 import ContentLists from '../components/news/common/contentLists'
 import Footer from '../components/footer'
 import {useParams} from 'react-router-dom'
-import ProjectDropdown from '../components/projectDropdown';
-import ContactDropdown from '../components/contactDropdown';
+
 import Latest from '../components/news/latest'
 import Article1 from '../components/news/article1'
 import Article2 from '../components/news/article2'
