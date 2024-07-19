@@ -26,7 +26,7 @@ export default function ContentLists() {
         </div>
     </a><hr />
 
-    <a href="/news/article4">
+    <a href="/news/article5">
         <div className='chapters'>
             <img src={todo} alt="" />
             <div>
