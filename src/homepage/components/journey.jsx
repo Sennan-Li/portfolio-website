@@ -6,7 +6,7 @@ import notebookCover from "../images/cover_notebook.png";
 import notepage1 from "../images/notepage1.png";
 import notepage2 from "../images/notepage2.png";
 import notepage3 from "../images/notepage3.png";
-import notepage4 from '../images/Sennan Li - CV.jpeg'
+import notepage4 from '../images/Sennan Li - CV.jpg'
 
 
 const html = document.querySelector("html")
