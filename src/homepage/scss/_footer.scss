@@ -5,7 +5,8 @@ footer {
     background: url(../images/bg_wood_tile.jpg)  left/100% 100%;
     overflow: hidden;
     .footerEngrave {
-        background: url(../images/engrave_mid.png) repeat-x center/40% 100%;
+        background: url(../images/engrave_mid.png) repeat-x center/100% 100%;
+        width: 40%;
         height: 70px;
         z-index: 10;
         position: absolute;
