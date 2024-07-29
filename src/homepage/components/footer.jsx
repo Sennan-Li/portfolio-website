@@ -10,7 +10,7 @@ export default function Footer(props) {
   return (
     <footer onClick={props.onDropdownClose}>
 
-      <div className='footerEngrave footerEngraveleft'>
+      <div className='footerEngrave footerEngraveLeft'>
         <img className='engrave engraveBegin' src={engraveLeftHead} alt=""/>
         <img className='engrave engraveEnd' src={engraveLeftTail} alt=""/>
       </div>

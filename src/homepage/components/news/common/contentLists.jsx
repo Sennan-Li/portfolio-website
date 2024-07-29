@@ -8,6 +8,7 @@ import eCommerce from '../../../images/e-commerce.jpg'
 import notes from '../../../images/notes-app.png'
 import todo from '../../../images/todo-app.png'
 import homecare from '../../../images/homecare.png'
+import streamlit from '../../../images/streamlit.png'
 import * as articleConstants from '../../../constants/constants'
 
 export default function ContentLists() {
@@ -16,12 +17,34 @@ export default function ContentLists() {
     <h1>Recent Articles</h1>
     <hr />
 
-    <a href="/news">
+    <a href="/news/article8">
+        <div className='chapters'>
+            <img src={streamlit} alt="" />
+            <div>
+                <p className='intro'>{articleConstants.articleTitle8}</p>
+                <p className='date'> {articleConstants.articleLink8}</p>
+            </div>
+        </div>
+    </a><hr />
+
+
+
+    <a href="/news/article7">
+        <div className='chapters'>
+            <img src={streamlit} alt="" />
+            <div>
+                <p className='intro'>{articleConstants.articleTitle7}</p>
+                <p className='date'>{articleConstants.articleLink7}</p>
+            </div>
+        </div>
+    </a><hr />
+
+    <a href="/news/article6">
         <div className='chapters'>
             <img src={homecare} alt="" />
             <div>
-                <p className='intro'>{articleConstants.articleTitleLatest}</p>
-                <p className='date'>exp://exp.host/@sennan/home-care-app?release-channel=default</p>
+                <p className='intro'>{articleConstants.articleTitle6}</p>
+
             </div>
         </div>
     </a><hr />
